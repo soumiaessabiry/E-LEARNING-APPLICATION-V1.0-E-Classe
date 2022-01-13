@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right,#0dcaf0,#dee4b0) !important;
+ 
+}
+
+.btn{
+    color:white;
+}
+.forgot{
+    margin-top: 30px;
+    border:3px solid darkviolet;
+    padding: 0;
+    width: 298px;
+    height: 34px;
+    margin-left: 156px;
+
+
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+a{
+    text-decoration: none;
+}
