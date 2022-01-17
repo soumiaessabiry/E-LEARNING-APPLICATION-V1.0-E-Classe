@@ -4,11 +4,14 @@ button{
   
   margin-bottom: 10px !important;
   margin-top: 20px !important;
-
 }
 .log{
     margin-top: 100px !important;
 }
 .butst{
     color: white !important;
+}
+ a {
+    color: black !important;
+    text-decoration: none !important;
 }

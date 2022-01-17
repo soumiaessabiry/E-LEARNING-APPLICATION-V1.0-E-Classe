@@ -9,4 +9,7 @@ button{
 .log{
     margin-top: 100px !important;
 }
-
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
