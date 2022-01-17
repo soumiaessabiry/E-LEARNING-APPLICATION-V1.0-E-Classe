@@ -17,13 +17,11 @@
         </head>
 
         <body>
-            <div class="container-fluid">
-                <div  class="row min-vh-100 flex-column flex-md-row " >
-                    <aside class="col-12 col-md-3 col-xl-2 p-0" style=" background:#FAFFC1 ">
-                        <span class=" m-4 fs-2  "><span
-                                class="border-start border-info border-5 ps-2 fw-bolder ms-3  ">E-classe</span> </span>
-                        <nav class="navbar navbar-expand-md navbar-light  flex-md-column flex-row align-items-center py-2 text-center sticky-top "
-                            id="navbarToggleExternalContent">
+            <div class="container-fluid w-100">
+                <div  class="row min-vh-100  min-vw-100 flex-column flex-md-row  " >
+                    <aside class=" col col-xl-2 col-md-2 p-0" style=" background:#FAFFC1 ">
+                        <span class=" m-4 fs-3  "><span  class="border-start border-info border-5 ps-2 fw-bolder ms-3  ">E-classe</span> </span>
+                        <nav class="navbar navbar-expand-md navbar-light  flex-md-column flex-row align-items-center py-2 text-center sticky-top " id="navbarToggleExternalContent">
                             <div class="text-center p-3 ">
                                 <img src="logoyouc.jpg" alt="profile picture"
                                     class="img-fluid rounded-circle my-4 p-1 d-none d-md-block " width="180px" />
@@ -51,8 +49,8 @@
                             </div>
                         </nav>
                     </aside>
-                    <!-- /************************ search*********************/ -->
-                    <div class="col">
+                      
+                    <div class="col container-fluid bg-light" >
                         <div class="d-flex justify-content-between mt-3">
                             <div class="">
                                <a href="#"><i class="bi bi-arrow-left-circle-fill fs-1 " style="color:black;"></i></a>
@@ -66,6 +64,153 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div class="">
+                               <a href="#" style="color: black; text-decoration: none;"><h1>Students List</h1></i></a>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center gap-3">
+                                <div style="font-size: 2.5rem"  >
+                                    <i class="fas fa-sort text-info"></i>
+                                </div>
+                                <div>
+                                    <input type="button" class=" px-5 ms-3 py-3 fs-4 bg-info fw-bold" value="ADD NEW STUDENT" style="border: none;border-radius: 5px; color: white;"></input>
+                                </div>
+                            </div>
+                        </div>
+<!-- ******************************** table******************************************** -->
+                       
+                            <div class="row mt-5 mb-3 px-2 " style="box-sizing: border-box;" >
+                                <table class="table-responsive table-responsive-md" style="border-top: 2px solid gray;">
+                                    <thead>
+                                        <tr class="bg-light mt-3" style="color: #ACACAC;  height: 79px;">
+                                            <th scope="col"></th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Phone</th>
+                                            <th scope="col">Enroll number</th>
+                                            <th scope="col">Date of admission</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="flex-column gap-2 " style=" height: 594px; ">
+<!-- ***********************************row1***************************************** -->
+                                        <tr class="mt-4 bg-white">
+                                            <th scope="row">
+                                                <img src="photo2.jpg" alt="Pro-img" width="65" height="55">
+                                            </th>
+                                            <td class="align-middle">username</td>
+                                            <td class="align-middle">user@email.com</td>
+                                            <td class="align-middle">7305477760</td>
+                                            <td class="align-middle">1234567305477760</td>
+                                            <td class="align-middle">08-Dec, 2021</td>
+                                            <td class="text-primary align-middle">
+                                                <i class="fas fa-pen pe-3"></i>
+                                                <i class="fas fa-trash"></i>
+                                            </td>
+                                        </tr>
+<!-- ***********************************row2***************************************** -->
+                                       
+                                        <tr class="mt-4 bg-white ">
+                                            <th scope="row">
+                                                <img src="photo2.jpg" alt="Pro-img" width="65" height="55">
+                                            </th>
+                                            <td class="align-middle">username</td>
+                                            <td class="align-middle">karthi@gmmail.com</td>
+                                            <td class="align-middle">7305477760</td>
+                                            <td class="align-middle">1234567305477760</td>
+                                            <td class="align-middle">08-Dec, 2021</td>
+                                            <td class="text-primary align-middle">
+                                                <i class="fas fa-pen pe-3"></i>
+                                                <i class="fas fa-trash"></i>
+                                            </td>
+                                        </tr>
+<!-- ***********************************row3***************************************** -->
+                                       
+                                        <tr class="mt-4  bg-white">
+                                            <th scope="row">
+                                                <img src="photo2.jpg" alt="Pro-img" width="65" height="55">
+                                            </th>
+                                            <td class="align-middle">username</td>
+                                            <td class="align-middle">karthi@gmmail.com</td>
+                                            <td class="align-middle">7305477760</td>
+                                            <td class="align-middle">1234567305477760</td>
+                                            <td class="align-middle">08-Dec, 2021</td>
+                                            <td class="text-primary align-middle">
+                                                <i class="fas fa-pen pe-3"></i>
+                                                <i class="fas fa-trash"></i>
+                                            </td>
+                                        </tr>
+<!-- ***********************************row4***************************************** -->
+                                       
+                                        <tr class="mt-4  bg-white">
+                                            <th scope="row">
+                                                <img src="photo2.jpg" alt="Pro-img" width="65" height="55">
+                                            </th>
+                                            <td class="align-middle">username</td>
+                                            <td class="align-middle">karthi@gmmail.com</td>
+                                            <td class="align-middle">7305477760</td>
+                                            <td class="align-middle">1234567305477760</td>
+                                            <td class="align-middle">08-Dec, 2021</td>
+                                            <td class="text-primary align-middle">
+                                                <i class="fas fa-pen pe-3"></i>
+                                                <i class="fas fa-trash"></i>
+                                            </td>
+                                        </tr>
+<!-- ***********************************row5***************************************** -->
+                                       
+                                        <tr class="mt-4  bg-white">
+                                            <th scope="row">
+                                                <img src="photo2.jpg" alt="Pro-img" width="65" height="55">
+                                            </th>
+                                            <td class="align-middle">username</td>
+                                            <td class="align-middle">karthi@gmmail.com</td>
+                                            <td class="align-middle">7305477760</td>
+                                            <td class="align-middle">1234567305477760</td>
+                                            <td class="align-middle">08-Dec, 2021</td>
+                                            <td class="text-primary align-middle">
+                                                <i class="fas fa-pen pe-3"></i>
+                                                <i class="fas fa-trash"></i>
+                                            </td>
+                                        </tr>
+<!-- ***********************************row6***************************************** -->
+                                       
+                                        <tr class="mt-4  bg-white">
+                                            <th scope="row">
+                                                <img src="photo2.jpg" alt="Pro-img" width="65" height="55">
+                                            </th>
+                                            <td class="align-middle">username</td>
+                                            <td class="align-middle">karthi@gmmail.com</td>
+                                            <td class="align-middle">7305477760</td>
+                                            <td class="align-middle">1234567305477760</td>
+                                            <td class="align-middle">08-Dec, 2021</td>
+                                            <td class="text-primary align-middle">
+                                                <i class="fas fa-pen pe-3"></i>
+                                                <i class="fas fa-trash"></i>
+                                            </td>
+                                        </tr>
+<!-- ***********************************row7***************************************** -->
+                                       
+                                        <tr class="mt-4  bg-white">
+                                            <th scope="row">
+                                                <img src="photo2.jpg" alt="Pro-img" width="65" height="55">
+                                            </th>
+                                            <td class="align-middle">username</td>
+                                            <td class="align-middle">karthi@gmmail.com</td>
+                                            <td class="align-middle">7305477760</td>
+                                            <td class="align-middle">1234567305477760</td>
+                                            <td class="align-middle">08-Dec, 2021</td>
+                                            <td class="text-primary align-middle">
+                                                <i class="fas fa-pen pe-3"></i>
+                                                <i class="fas fa-trash"></i>
+                                            </td>
+                                        </tr>
+        
+                                     </tbody>
+                                </table>
+                            </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
