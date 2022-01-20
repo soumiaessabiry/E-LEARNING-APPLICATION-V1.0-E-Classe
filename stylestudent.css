@@ -1,9 +1,10 @@
 button{
     color: black !important;
   justify-content: space-around !important;
-  
   margin-bottom: 10px !important;
   margin-top: 20px !important;
+
+
 }
 .log{
     margin-top: 100px !important;
@@ -14,4 +15,12 @@ button{
  a {
     color: black !important;
     text-decoration: none !important;
+
 }
+a:hover{
+    background: #00C1FE !important;
+}
+.btn{
+    color:white !important;
+    font-weight: bold !important;
+  }
